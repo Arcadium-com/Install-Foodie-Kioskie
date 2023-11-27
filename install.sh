@@ -94,8 +94,6 @@ cd ..
 sudo docker build -t foodie-kioskie:1.0 .
 # Criando um container da imagem criada e executando
 sudo docker run --name bdArcadium -p 3306:3306 -d foodie-kioskie:1.0
-# Confirmando a execução do container
-sudo docker start bdArcadium
 # Removendo os arquivos com as tabelas do banco
 rm ./arquivos_sql/001-arcadium.sql   
 # Removendo a pasta
@@ -126,6 +124,7 @@ sleep 4
 clear
 
 ########################################################################
-
-rm install.sh
+# Confirmando a execução do container
+sudo docker start bdArcadium
+# rm ../install.sh
 java -jar foodie-kioskie.jar
