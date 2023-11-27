@@ -26,7 +26,7 @@ if [ $? = 0 ];
         "
         sleep 3
         # Instalando o JRE para executar o JAR
-        sudo apt install default-jre -y
+        sudo apt install openjdk-17-jre -y
 fi
 
 clear
