@@ -77,7 +77,7 @@ echo "
 "
 echo "Rᴇᴀʟɪᴢᴀʀᴇᴍᴏs ᴀ ᴄᴏɴғɪɢᴜʀᴀᴄ̧ᴀ̃ᴏ ᴅᴏ Dᴏᴄᴋᴇʀ
 "
-*# Removendo possíveis arquivos já existentes na pasta
+# Removendo possíveis arquivos já existentes na pasta
 rm * --force
 # Baixando o arquivo com as configurações da imagem do MySQL
 wget https://github.com/Arcadium-com/Install-Foodie-Kioskie/raw/main/Dockerfile
